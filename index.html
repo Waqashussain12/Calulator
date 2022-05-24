@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="framworks/bootstrap/css/bootstrap.min.css">
+    <style>
+        .calcutorhead h2{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            color: chocolate;
+            font-size: 30px;
+        }
+        .container{
+            text-align: center;
+            display: grid;
+            width: 280px;
+        }
+        .opertor button a{
+            text-decoration: none;
+            color:white;
+        }
+        .opertor button {
+            border:none;
+            border-radius: 50%;
+            height: 60px;
+            width:50px;
+            background-color: black;
+        }
+        .opertor{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .wholegrid{
+            text-align: center;
+            background-color: black;
+        }        
+        .lasoperor{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .lasoperor button{
+            border:none;
+            border-radius: 50%;
+            height: 60px;
+            width:50px;
+            background-color: black;
+            margin-top: 10px;
+            margin-left: 1px;
+        }
+        .lasoperor button a{
+            text-decoration: none;
+            color: white;
+        }
+        .input input{
+            width: 250px;
+            height: 60px;
+            border:none;
+            border-style:ridge;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="calcutorhead">
+                <h2><span>Calculator</span></h2>
+            </div>
+           <div class="wholegrid">
+               <div class="input">
+                   <input type="text">
+               </div>
+                <div class="opertor">
+                    <button><a href="">Ac</a></button>
+                    <button><a href="">Del</a></button>
+                    <button><a href="">%</a></button>
+                    <button><a href="">/</a></button>
+                 </div>
+                 <div class="opertor">
+                    <button><a href="">7</a></button>
+                    <button><a href="">8</a></button>
+                    <button><a href="">9</a></button>
+                    <button><a href="">x</a></button>
+                 </div>
+                 <div class="opertor">
+                    <button><a href="">4</a></button>
+                    <button><a href="">5</a></button>
+                    <button><a href="">6</a></button>
+                    <button><a href="">-</a></button>
+                 </div>
+                 <div class="opertor">
+                    <button><a href="">1</a></button>
+                    <button><a href="">2</a></button>
+                    <button><a href="">3</a></button>
+                    <button><a href="">+</a></button>
+                 </div>
+                 <div class="lasoperor">
+                     <button><a href="">0</a></button>
+                     <button><a href="">.</a></button>
+                     <button class="new"><a href="">=</a></button>
+                 </div>
+           </div>
+        </div>
+    </section>
+</body>
+</html>
